@@ -10,16 +10,16 @@
 # line and the two sha256 literals — keeping the per-release diff minimal.
 # See apps/studio/RELEASE.md for the tap + secret setup.
 cask "checkpt-studio" do
-  version "0.1.4-test.8"
+  version "0.1.4-test.9"
 
   on_arm do
-    sha256 "eeb7f257494c412ec88faa5e3f014d356314ab89fe784b71a3668103cdf12d65"
+    sha256 "08379505822acae222af1394f7fb52cd830bd0f09ecd7a00fb369010fbd8cb90"
 
     url "https://downloads.checkpt.io/#{version}/darwin-aarch64/CheckPt%20Studio_#{version}_aarch64.dmg",
         verified: "downloads.checkpt.io/"
   end
   on_intel do
-    sha256 "5beb03466a1a7dd3cb9d73823df3fcd49cace592b366c916c7b2f4d1b1cf6d65"
+    sha256 "cf0b6803c8fc8fe2bb255818c60beeea60a74c6bb9a915b7e07602bc71146849"
 
     url "https://downloads.checkpt.io/#{version}/darwin-x86_64/CheckPt%20Studio_#{version}_x64.dmg",
         verified: "downloads.checkpt.io/"
